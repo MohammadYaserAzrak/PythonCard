@@ -1,9 +1,18 @@
+/* This means that we are styling everything */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 html,
 body,
 h1,
-ul {
+ul,
+img {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #container {
@@ -33,8 +42,8 @@ h1 {
 }
 
 img {
+    width: 100%;
     border: 4px solid black;
-    width: 90%;
 }
 
 p {
@@ -71,6 +80,7 @@ strong {
     color: black;
     font-size: large;
 }
+
 /* #hr-last {
     border: 4px dotted red;
 } */
@@ -81,3 +91,5 @@ strong {
  } */
 
 /* !important will give the priority to anything */
+
+/* p span {} means the span inside the p */
